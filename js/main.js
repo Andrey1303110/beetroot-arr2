@@ -22,3 +22,14 @@ printArray(arr);
 var el = arr.pop();
 printArray(arr);
 document.write(el + "<br />");
+
+arr.unshift(1, 2, 3);
+printArray(arr);
+
+var el1 = arr.shift();
+printArray(arr);
+document.write(el1 + "<br />");
+
+arr.sort();
+printArray(arr);
+
